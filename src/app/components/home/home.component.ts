@@ -11,8 +11,8 @@ export class HomeComponent implements OnInit {
     {
       name: "Kornerstore",
       thumbnail: "https://imgur.com/hJMMmbO.jpg",
-      url: "#",
-      codeUrl: "https://github.com",
+      url: "https://kornerstore.us",
+      codeUrl: "https://github.com/CesarAHernandez/ecommerce-concept",
       technologies: [
         {
           name: "React.js",
@@ -26,37 +26,65 @@ export class HomeComponent implements OnInit {
           name: "PHP/Laravel",
           icon: "Some Icon",
         },
+        {
+          name: "SCSS",
+          icon: "Some Icon",
+        },
       ],
       description:
-        "age editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "A modern take on the E-commerce Experience. Using PHP as the back-bone along with React for creating a fluid User Experience",
     },
     {
       name: "Real Estate Concept",
-      thumbnail: "https://imgur.com/qjOflZE.jpg",
-      url: "#",
-      codeUrl: "https://github.com",
+      thumbnail: "https://i.imgur.com/wESUlYX.jpg",
+      url: "https://condescending-curie-a7d8b7.netlify.com",
+      codeUrl: "https://github.com/CesarAHernandez/React-RealEstateConcept",
       technologies: [
         {
-          name: "PHP",
+          name: "React.js",
+          icon: "Some Icon",
+        },
+        {
+          name: "SCSS",
           icon: "Some Icon",
         },
       ],
       description:
-        "age editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "Simple React App used as a concept for a Real Estate Website. Modular Simple and Creative",
     },
     {
-      name: "timeclassicmovies",
-      thumbnail: "https://imgur.com/yJ0qcuS.jpg",
-      url: "#",
-      codeUrl: "https://github.com",
+      name: "Invoice Manager",
+      thumbnail: "https://i.imgur.com/bIqo01M.png",
+      url: "https://invoicemanager-rem.herokuapp.com/",
+      codeUrl: "https://github.com/CesarAHernandez/invoice_manager_server",
       technologies: [
         {
-          name: "PHP",
+          name: "Node.js",
+          icon: "Some Icon",
+        },
+        {
+          name: "React.js",
+          icon: "Some Icon",
+        },
+        {
+          name: "Stripe",
+          icon: "Some Icon",
+        },
+        {
+          name: "PayPal",
+          icon: "Some Icon",
+        },
+        {
+          name: "Twillio",
+          icon: "Some Icon",
+        },
+        {
+          name: "UiKit",
           icon: "Some Icon",
         },
       ],
       description:
-        "age editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "A feature plentiful Invoice Manager. Designed for the small businesses in mind. You can add a user to your database, make invoices, and have the client pay all in one web app.",
     },
   ];
 
