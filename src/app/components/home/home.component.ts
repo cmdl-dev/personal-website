@@ -35,31 +35,13 @@ export class HomeComponent implements OnInit {
         "A modern take on the E-commerce Experience. Using PHP as the back-bone along with React for creating a fluid User Experience",
     },
     {
-      name: "Real Estate Concept",
-      thumbnail: "https://i.imgur.com/wESUlYX.jpg",
-      url: "https://condescending-curie-a7d8b7.netlify.com",
-      codeUrl: "https://github.com/CesarAHernandez/React-RealEstateConcept",
-      technologies: [
-        {
-          name: "React.js",
-          icon: "Some Icon",
-        },
-        {
-          name: "SCSS",
-          icon: "Some Icon",
-        },
-      ],
-      description:
-        "Simple React App used as a concept for a Real Estate Website. Modular Simple and Creative",
-    },
-    {
       name: "Invoice Manager",
       thumbnail: "https://i.imgur.com/bIqo01M.png",
       url: "https://invoicemanager-rem.herokuapp.com/",
       codeUrl: "https://github.com/CesarAHernandez/invoice_manager_server",
       technologies: [
         {
-          name: "Node.js",
+          name: "Node.js + Express",
           icon: "Some Icon",
         },
         {
@@ -85,6 +67,28 @@ export class HomeComponent implements OnInit {
       ],
       description:
         "A feature plentiful Invoice Manager. Designed for the small businesses in mind. You can add a user to your database, make invoices, and have the client pay all in one web app.",
+    },
+    {
+      name: "Client Panel",
+      thumbnail: "https://i.imgur.com/oVbL3WJ.png",
+      url: "https://clientpanelprod-e68a8.firebaseapp.com/",
+      codeUrl: "https://github.com/CesarAHernandez/clientpanel",
+      technologies: [
+        {
+          name: "Angular",
+          icon: "Some Icon",
+        },
+        {
+          name: "Bootstrap",
+          icon: "Some Icon",
+        },
+        {
+          name: "Firebase",
+          icon: "Some Icon",
+        },
+      ],
+      description:
+        "Simple Angular App used as a concept for a Client Panel. Modular Simple and Creative",
     },
   ];
 
