@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
     {
       name: "Kornerstore",
       thumbnail: "https://imgur.com/hJMMmbO.jpg",
-      url: "https://kornerstore.us",
+      url: "https://kornerstore.herokuapp.com",
       codeUrl: "https://github.com/CesarAHernandez/ecommerce-concept",
       technologies: [
         {
